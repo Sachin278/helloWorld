@@ -1,0 +1,21 @@
+{
+  "name": "my-electron-app",
+  "version": "0.1.0",
+  "author": "Sachin <sachin131013@gmail.com>",
+  "description": "My Electron app",
+  "homepage": "https://www.mysite.com",
+  "license" : "BSD-3-Clause",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist:linux": "electron-builder --linux"
+  },
+  "devDependencies": {
+    "electron": "^12.0.4",
+    "electron-builder": "^22.10.5",
+    "electron-packager": "^15.2.0"
+  },
+  "build": {
+    "appId": "com.sachin.hello-world"
+  }
+}
